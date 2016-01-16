@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/com.example.eclipse.filesystem.feature_1.0.1.201601160941.jar" id="com.example.eclipse.filesystem.feature" version="1.0.1.201601160941"/>
+   <feature url="features/com.example.eclipse.filesystem.feature_1.0.2.201601161022.jar" id="com.example.eclipse.filesystem.feature" version="1.0.2.201601161022"/>
 </site>
