@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension
+         id="org.eclipse.core.filesystem.zip"
+         point="org.eclipse.core.filesystem.filesystems">
+      <filesystem scheme="foo">
+         <run class="com.example.eclipse.filesystem.foo.FooFileSystem"/>
+      </filesystem>
+   </extension>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            id="org.eclipse.ui.examples.filesystem.contribution1"
+            objectClass="java.lang.Object">
+         <action
+               class="com.example.eclipse.filesystem.ReloadProject"
+               enablesFor="*"
+               id="org.eclipse.ui.examples.filesystem.reloadProject"
+               label="Reload Project"
+               menubarPath="additions"/>
+      </objectContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.ide.filesystemSupport">
+      <filesystemContributor
+            class="com.example.eclipse.filesystem.foo.FooFileSystemContributor"
+            label="Foo"
+            scheme="foo"/>
+   </extension>
+
+</plugin>
