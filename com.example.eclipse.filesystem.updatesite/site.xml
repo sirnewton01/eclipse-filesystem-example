@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/com.example.eclipse.filesystem.feature_1.0.0.201601152337.jar" id="com.example.eclipse.filesystem.feature" version="1.0.0.201601152337">
+   <feature url="features/com.example.eclipse.filesystem.feature_1.0.0.201601160920.jar" id="com.example.eclipse.filesystem.feature" version="1.0.0.201601160920">
       <category name="com.example.eclipse.filesystem.updatesite.main"/>
    </feature>
-   <category-def name="com.example.eclipse.filesystem.updatesite.main" label="Main"/>
+   <category-def name="com.example.eclipse.filesystem.updatesite.main" label="Main Category"/>
 </site>
