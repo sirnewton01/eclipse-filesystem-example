@@ -6,7 +6,7 @@ Are your eclipse tools up for the challenge?
 Normally, your eclipse projects are located in your eclipse workspace directory and have
 the usual file URI's, but not always. There are eclipse tools that will manage your projects
 for you and use special URI's to address the files. Fortunately, eclipse has the 
-[[EFS](https://wiki.eclipse.org/EFS)) to accomplish just that.
+[EFS](https://wiki.eclipse.org/EFS) to accomplish just that.
 
 Unfortunately, some eclipse tools make certain invalid assumptions about the form of the URI's
 used for the files in your project. This project gives both end users and developers of eclipse
@@ -49,8 +49,8 @@ If you find a bug in the example, please raise an issue here.
 Tools tested so far
 ===================
 
- * [[JDT](http://www.eclipse.org/jdt/)) (works very well, no problems reported in a very long time)
- * [[PDE](http://www.eclipse.org/pde/)] (same)
+ * [JDT](http://www.eclipse.org/jdt/) (works very well, no problems reported in a very long time)
+ * [PDE](http://www.eclipse.org/pde/) (same)
 
 Raise an issue or pull request to add more tools to the list.
 
