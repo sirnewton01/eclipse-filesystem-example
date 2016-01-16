@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="com.example.eclipse.filesystem.feature"
-      label="Example EFS PRovider"
-      version="1.0.0.qualifier"
+      label="Example EFS Provider"
+      version="1.0.1.qualifier"
       provider-name="EXAMPLE">
 
-   <description url="http://www.example.com/description">
-      [Enter Feature Description here.]
+   <description url="https://github.com/sirnewton01/eclipse-filesystem-example">
+      This feature is an example Eclipse Filesystem provider to help
+test your eclipse tools for invalid assumptions about the URI&apos;s
+for files in the workspace.
    </description>
 
    <copyright url="http://www.example.com/copyright">
